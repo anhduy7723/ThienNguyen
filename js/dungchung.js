@@ -711,7 +711,7 @@ function addPlc() {
     <div class="plc">
         <section>
             <ul class="flexContain">
-                <li>CHO ĐI LÀ NHẬN LẠIờ</li>
+                <li>CHO ĐI LÀ NHẬN LẠI</li>
                 <li>HẠNH PHÚC LÀ CHO ĐI</li>
                 <li>SỐNG VÌ NGƯỜI KHÁC</li>
                 <li>CŨ NGƯỜI MỚI TA</li>
@@ -825,35 +825,7 @@ function getThongTinSanPhamFrom_TheGioiDiDong() {
 					var giatri = li.getElementsByTagName('div')[0].innerText;
 	
 					switch (loai) {
-						/*case "Màn hình:":
-							result.detail.screen = giatri.replace('"', "'");
-							break;
-						case "Hệ điều hành:":
-							result.detail.os = giatri;
-							break;
-						case "Camera sau:":
-							result.detail.camara = giatri;
-							break;
-						case "Camera trước:":
-							result.detail.camaraFront = giatri;
-							break;
-						case "CPU:":
-							result.detail.cpu = giatri;
-							break;
-						case "RAM:":
-							result.detail.ram = giatri;
-							break;
-						case "Bộ nhớ trong:":
-							result.detail.rom = giatri;
-							break;
-						case "Thẻ nhớ:":
-							result.detail.microUSB = giatri;
-							break;
-						case "Dung lượng pin:":
-							result.detail.battery = giatri;
-							break;
-					}
-				}*/
+						
 	
 				console.log(JSON.stringify(result, null, "\t"));
 			})();`;

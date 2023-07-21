@@ -6,7 +6,7 @@ window.onload = function () {
     khoiTao();
 
     // thêm tags (từ khóa) vào khung tìm kiếm
-    var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+    var tags = ["CÂY CỐI"," ĐỒ TỰ LÀM"," ĐỒ DÙNG HỌC TẬP"," ĐỒ TÁI CHẾ"];
     for (var t of tags) addTags(t, "index.html?search=" + t, true);
 
     phanTich_URL_chiTietSanPham();
@@ -121,11 +121,11 @@ function getDetailPromo(sp) {
         
         case 'giamgia':
             var span = `<span style="font-weight: bold">` + sp.promo.value + `</span>`;
-            return `Khách hàng sẽ được giảm ` + span + `₫ khi tới mua trực tiếp tại cửa hàng`;
+            return `SĐT: 0975212702 -Nguyễn Hải Hà `;
 
                 default:
-            var span = `<span style="font-weight: bold">61 xe Wave Alpha</span>`;
-            return `Cơ hội trúng ` + span + ` khi trả góp Home Credit`;
+            var span = `<span style="font-weight: bold"></span>`;
+            return `SĐT: 0975212702 -Nguyễn Hải Hà `;
     }
 }
 
