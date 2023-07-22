@@ -59,16 +59,13 @@ window.onload = function () {
 
 		// Thêm các khung sản phẩm
 		var div = document.getElementsByClassName('contain-khungSanPham')[0];
-		addKhungSanPham('GIÁ RẺ CHO MỌI NHÀ', green, ['price=0-3000000', 'sort=price'], soLuong, div);
+		addKhungSanPham('SẢN PHẨM', green, ['price=0-3000000', 'sort=price'], soLuong, div);
 	}
 
 	// Thêm chọn mức giá
-	addPricesRange(0, 2000000);
-	addPricesRange(2000000, 4000000);
-	addPricesRange(4000000, 7000000);
-	addPricesRange(7000000, 13000000);
-	addPricesRange(13000000, 0);
-
+	addPricesRange(0, 20000);
+	addPricesRange(20000, 40000);
+	
 	// Thêm chọn khuyến mãi
 	addPromotion('giamgia');
 	addPromotion('tragop');
@@ -94,7 +91,7 @@ window.onload = function () {
 	addAllChoosedFilter();
 };
 
-var soLuongSanPhamMaxTrongMotTrang = 15;
+var soLuongSanPhamMaxTrongMotTrang = 20;
 
 // =========== Đọc dữ liệu từ url ============
 var filtersFromUrl = { // Các bộ lọc tìm được trên url sẽ đc lưu vào đây
