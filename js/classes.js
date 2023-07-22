@@ -92,11 +92,8 @@ function addToWeb(p, ele, returnString) {
 			<div class="price">
 				` + price + `
 			</div>
-                        <h3>` Liên hệ : Nguyễn Hải Hà  `</h3>
-			<div class="ratingresult">
-				` + rating + `
-			</div>
-			` + (p.promo && p.promo.toWeb()) + `
+                        <h3>` +"Liên hệ : Nguyễn Hải Hà - 0975212702"+  `</h3>
+			
 			<div class="tooltip">
 				<button class="themvaogio" onclick="themVaoGioHang('`+p.masp+`', '`+p.name+`'); return false;">
 					<span class="tooltiptext" style="font-size: 15px;">Thêm vào giỏ</span>
