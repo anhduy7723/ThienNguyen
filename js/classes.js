@@ -92,6 +92,7 @@ function addToWeb(p, ele, returnString) {
 			<div class="price">
 				` + price + `
 			</div>
+                        <h3>` Liên hệ : Nguyễn Hải Hà  `</h3>
 			<div class="ratingresult">
 				` + rating + `
 			</div>
